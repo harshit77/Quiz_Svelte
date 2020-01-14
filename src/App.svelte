@@ -5,8 +5,8 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Quiz App</h1>
+	<p>Hello {name} We have built this quiz app demo on Svelte Hope you will like it for more info Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	<Quiz/>
 </main>
 
