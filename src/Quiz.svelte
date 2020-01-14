@@ -111,7 +111,8 @@ display: flex;
     font-size: 16px;
 }
 .category {
-    color:#464B6C
+    color:#464B6C;
+    margin-right:20px;
 }
 </style>
 <div class="container">
