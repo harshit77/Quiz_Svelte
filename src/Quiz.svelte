@@ -17,7 +17,7 @@ let notficationMessage=false;
 let userResponses=[];
 let resultScreen=false;
 onMount(async()=>{
-    const response= await fetch('http://www.json-generator.com/api/json/get/cftWfSJxAi?indent=2');
+    const response= await fetch('https://www.json-generator.com/api/json/get/cftWfSJxAi?indent=2');
     const result= await response.json();
     data=result.results;
     userResponses=data.map(userResponse=> {
