@@ -1,5 +1,5 @@
 <script>
-    import { progress } from './progress.js'
+    import { progress } from './Progress.js'
     export let name;
 </script>
 
