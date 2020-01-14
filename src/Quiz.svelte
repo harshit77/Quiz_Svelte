@@ -1,5 +1,5 @@
 <script>
-import { progress } from './progress.js'
+import { progress } from './Progress.js'
 import { onMount } from 'svelte';
 import {htmlDecode,shuffles} from './utlis.js';
 import QuizHeader from './QuizHeader.svelte';
