@@ -137,7 +137,7 @@ display: flex;
                 </div>
                 <button  on:click|preventDefault={handleButtonOperation}>Next</button></div>
         {:else if resultScreen}
-            <div class="resultScreen">You're Score is </div>
+            <div class="resultScreen">You're Score </div>
             <div class="score">{score} / 10 </div>
             <div class="retake">  <button  on:click|preventDefault={handleRetake}>ReTake</button> </div>
         {:else}
